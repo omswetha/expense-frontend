@@ -20,11 +20,10 @@ pipeline {
          } 
       }
 
-   }
-
-   stage('Release') {
-      steps {
-         echo 'Release'
-      } 
+      stage('Release') {
+         steps {
+            echo 'Release'
+         } 
+      }
    }
 }
